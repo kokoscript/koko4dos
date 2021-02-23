@@ -8,6 +8,8 @@ On a DOS machine:
 1. [Get DJGPP + Allegro 4.2.3](http://www.mrdictionary.net/allegro/#directory)
 2. Run `gcc <filename>.c -o <outputName>.exe -lalleg`
 
+*You may also need a DPMI server, such as [cwsdpmi](https://sandmann.dotster.com/cwsdpmi/) in order to run koko4dos.*
+
 Will also work on Windows, provided you setup Allegro for use with your compiler of choice *and* modify the GFX mode towards the beginning of main.
 
 Pre-compiled EXEs are provided on the releases page for convenience.
